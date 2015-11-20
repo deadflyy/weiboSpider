@@ -18,8 +18,8 @@ from scrapy import log
 class weiboSpider(CrawlSpider):
     
     name = "weibo"
-    userName = 'deadflyy5280@sina.com'
-    passWord = '882258'
+    userName = ''
+    passWord = ''
     enableProxy = False
     
     serverUrl = "http://login.sina.com.cn/sso/prelogin.php?entry=weibo&callback=sinaSSOController.preloginCallBack&su=&rsakt=mod&client=ssologin.js(v1.4.11)&_=1379834957683"
